@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>RTC Playround</title>
+    <title>mister Camera</title>
     <style>
       body {
         text-align: center;
@@ -16,6 +16,7 @@
     </style>
   </head>
   <body>
+    <h1>mister Camera Recorder</h1>
     <button id="startCamera">Start Camera</button>
     <button id="stopCamera" hidden>Stop Camera</button>
     <button id="startRecord" hidden>Start Recording</button>
@@ -25,6 +26,7 @@
     <div id="errors"></div>
     <video id="live-video" src="" autoplay muted style="display:none;"></video>
     <video id="recorded-video" src="" controls style="display:none;"></video>
+    
     <ul id="videoList"></ul>
 
     <script src="main.js"></script>
