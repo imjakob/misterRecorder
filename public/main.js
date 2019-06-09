@@ -48,7 +48,7 @@ elStartCamera.onclick = () => {
 
   function getWebSocket() {
     // var websocketEndpoint = "ws://localhost:3000";
-    var websocketEndpoint = "ws://puki.ninja";
+    var websocketEndpoint = "wss://puki.ninja";
     connection = new WebSocket(websocketEndpoint);
     connection.binaryType = "arraybuffer";
     connection.onmessage = function(message) {
