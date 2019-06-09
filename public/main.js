@@ -57,7 +57,8 @@ elStartCamera.onclick = () => {
   }
 
   function updateVideoFile() {
-    var videoUrl = "http://localhost:3000/uploads/" + fileName + ".webm";
+    // var videoUrl = "http://localhost:3000/uploads/" + fileName + ".webm";
+    var videoUrl = "http://puki.ninja/uploads/" + fileName + ".webm";
     elRecordedVideo.setAttribute("src", videoUrl);
 
     elRecordedVideo.style.display = "block";
